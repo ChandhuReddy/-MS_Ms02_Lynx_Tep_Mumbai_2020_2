@@ -42,7 +42,7 @@
             <button class="btn btn-info" onclick="return solveSudoku()">Solve</button>
         </div><br>
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-3">
 
             </div>
             <div class="col-sm-3" id="div_gen">
@@ -50,15 +50,12 @@
 
                 </div>
             </div>
-            <div class="col-sm-2">
-
-            </div>
             <div class="col-sm-3" id="div_solve">
                 <div style="text-align: center; " id="solve_table">
 
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
 
             </div>
           </div>
@@ -140,14 +137,14 @@
                 if(type === "generate")
                 {
                     document.getElementById("gen_table").innerHTML = table;
-                    document.getElementById("div_gen").style.border = "2px solid green";
+                    document.getElementById("div_gen").style.border = "1px solid green";
                     document.getElementById("div_solve").style.display = "none";
                 }
                 else if(type === "solve")
                 {
                     document.getElementById("solve_table").innerHTML = table;
                     document.getElementById("div_solve").style.display = "block";
-                    document.getElementById("div_solve").style.border = "2px solid green";
+                    document.getElementById("div_solve").style.border = "1px solid green";
                 }
                     
             }
