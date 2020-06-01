@@ -1,3 +1,5 @@
+## Working demo: [Sudoku](https://chandhureddy.github.io/-MS_Ms02_Lynx_Tep_Mumbai_2020_2/)
+
 # Milestone-2: SUDOKU
 
 ## Learning Competencies
